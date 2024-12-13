@@ -30,6 +30,11 @@ spring:
     port: 5672
     username: "guest"
     password: "guest"
+    # suppose there are three service containg 9 application.yml for differnrt enviroment which present in git and you
+       are going to git and change in every file .if rabbitMq is configured with every application.yml file if you run 
+      on service then rabitMq call internally and remaing service will not run and if hit the application.yml file
+     it will give the update one. 
+       
 
   management:
     endpoints:
