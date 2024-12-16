@@ -10,6 +10,7 @@ spring:
           force-pull: true
 
   #for rabbit mq
+   #it should be running in local
   rabbitmq:
     host: "localhost"
     port: 5672
